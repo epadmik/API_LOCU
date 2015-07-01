@@ -21,13 +21,13 @@ def locationSearch(location):
 	json_data =  json.load(help)
 
 	for items in json_data['objects']:
-		print(items['name'],items['phone'])
+		print(items['name'].encode('ascii', 'ignore'),items['phone'].encode('ascii', 'ignore'),items['street_address'].encode('ascii', 'ignore'))
 		
 
 print("Welcome to my Restaurant API")
 x = raw_input("Please enter a city: ")
 
-print(x)
+print("Here are the restaurant in " + str(x))
 locationSearch(x)
 
 #print("Restaurants New York")
