@@ -24,10 +24,12 @@ def locationSearch(location):
 		print(items['name'],items['phone'])
 		
 
+print("Welcome to my Restaurant API")
+x = raw_input("Please enter a city: ")
 
-#x = input("Please enter a city")
-print("Restaurant LA")
-locationSearch("Los Angles")
-print("Restaurants New York")
-locationSearch("New York")
+print(x)
+locationSearch(x)
+
+#print("Restaurants New York")
+#locationSearch("New York")
 #pdb.set_trace()
