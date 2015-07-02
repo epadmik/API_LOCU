@@ -5,7 +5,7 @@ import csv
 
 
 #LOCU API key
-locu_api = 'f087ffd8e0a495f6ac6f5df6885fca48d3c1e22b'
+locu_api = 
 #url = "https://api.locu.com/v1_0/venue/search/?api_key=f087ffd8e0a495f6ac6f5df6885fca48d3c1e22b"
 
 master_arry = []
